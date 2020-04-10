@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign-in form</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="" />
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="ba-container">
+        <form action="#" method="post" class="ba-singin-form">
+          <div class="ba-singin-form__header">
+            <a href="#" class="ba-singin-form__header--active">Sign in</a>
+            <a href="#">Join us</a>
+          </div>
+          <!-- /.ba-singin-form__header -->
+
+          <label for="username">Username</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            required
+            class="ba-full-width"
+          />
+
+          <label for="password">Password</label>
+          <input
+            required
+            type="password"
+            name="password"
+            id="password"
+            class="ba-full-width"
+          />
+          <div class="ba-keep-signin">
+            <input
+              type="checkbox"
+              name="logined"
+              id="logined"
+              value="yes"
+              checked
+            />
+            <label for="logined">Keep me signed in</label>
+          </div>
+
+          <div class="ba-singin-form__footer">
+            <button type="submit" class="ba-full-width">
+              Sign in
+            </button>
+            <div class="ba-singin-form__footer--link">
+              <a href="#">Forgot password</a>
+              <a href="#">Create an account</a>
+            </div>
+          </div>
+          <!-- /.ba-singin-form__footer -->
+        </form>
+      </div>
+      <!-- /.ba-container -->
+    </main>
+  </body>
+  Keep me signed in
+</html>
